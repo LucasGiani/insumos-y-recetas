@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: insumos-y-recetas
+    env: static
+    staticPublishPath: dist
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 0005

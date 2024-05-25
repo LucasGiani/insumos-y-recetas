@@ -5,7 +5,8 @@
   "type": "module",
   "homepage": "http://LucasGiani.github.io/insumos-y-recetas",
   "scripts": {
-    "dev": "vite",
+    "start": "vite preview",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
